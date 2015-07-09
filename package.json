@@ -1,0 +1,19 @@
+{
+  "name": "hello-world",
+  "version": "0.0.0",
+  "description": "Hello World!",
+  "author": "Philip La <birkal@outlook.com>",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "license": "MIT",
+  "repository": "",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.1",
+    "load-grunt-tasks": "^3.1.0"
+  },
+  "engines": {
+    "node": "~0.12"
+  }
+}
