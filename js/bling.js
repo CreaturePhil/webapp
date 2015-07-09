@@ -1,5 +1,4 @@
 /* jshint proto: true */
-/* global NodeList */
 (function(window) {
   'use strict';
 

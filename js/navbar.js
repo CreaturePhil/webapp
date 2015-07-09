@@ -1,4 +1,4 @@
-(function($, window) {
+(function($) {
   'use strict';
 
   var $toggle = $('.navbar-toggle');
@@ -8,4 +8,4 @@
   $toggle.on('click', function() {
     collapse.classList.toggle('collapse');
   }, false);
-})($, window);
+})($);
