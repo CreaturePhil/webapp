@@ -5,12 +5,7 @@
   var collapse = $('.navbar-collapse')[0];
 
   // Toggle if navbar menu is open or closed
-  function toggleMenu() {
+  $toggle.on('click', function() {
     collapse.classList.toggle('collapse');
-    collapse.classList.toggle('in');
-  }
-
-  $toggle.on('click', toggleMenu, false);
+  }, false);
 })($, window);
-
-
